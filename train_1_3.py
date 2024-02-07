@@ -9,8 +9,8 @@ def num_two(x, y):
         print("False")
 
 def num_three(string):
-    chur_list = [ chur for chur in string]
-    print(chur_list)
+    char_list = [ char for char in string]
+    print(char_list)
 
 def num_four(list):
     print(list[2:-1])
