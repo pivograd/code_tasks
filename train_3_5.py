@@ -18,6 +18,15 @@ def num_two(list):
             return False
     print(True)
 
+def num_three(list1, list2):
+
+     print(set(list1).intersection(set(list2)))
+
+def num_four(num):
+    string = ''
+    for i in range(num):
+        string += '0'
+    print(string)
 
 
 
