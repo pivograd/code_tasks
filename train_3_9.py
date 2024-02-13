@@ -22,3 +22,22 @@ def num_two():
             set_int.add(num)
     print(set_int)
 
+def num_three(list):
+
+    new_list = []
+
+    for i in list:
+
+        new_list.append(i)
+        new_list.append(i)
+
+    print(new_list)
+
+def num_four(list1, list2):
+
+    for i in range(len(list1)):
+
+        print(f'{list1[i]},{list2[i]}')
+
+
+
